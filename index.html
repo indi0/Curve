@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="utf-8">
+   <title>Curves</title>
+   <link rel="stylesheet" href="style.css">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.min.js"
+      integrity="sha512-3RlxD1bW34eFKPwj9gUXEWtdSMC59QqIqHnD8O/NoTwSJhgxRizdcFVQhUMFyTp5RwLTDL0Lbcqtl8b7bFAzog=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+
+   <script>
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+         apiKey: "AIzaSyDDm9oS7SN5neAZ5mntZIUbCCZZS6ZfygY",
+         authDomain: "curve-ba6e6.firebaseapp.com",
+         databaseURL: "https://curve-ba6e6-default-rtdb.europe-west1.firebasedatabase.app",
+         projectId: "curve-ba6e6",
+         storageBucket: "curve-ba6e6.appspot.com",
+         messagingSenderId: "120556660907",
+         appId: "1:120556660907:web:7ec3831e4a0cf1ce84afee"
+         };
+      firebase.initializeApp(firebaseConfig);
+   </script>
+
+   <script src="app.js"></script>
+   <script src="Player.js"></script>
+   <script src="PowerUp.js"></script>
+</body>
+
+<!--Font awesome test-->
+<p><i class="fas fa-user"></i></p>
+
+
+</html>
